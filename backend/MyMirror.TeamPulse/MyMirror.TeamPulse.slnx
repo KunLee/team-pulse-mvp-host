@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MyMirror.TeamPulse.Api/MyMirror.TeamPulse.Api.csproj" />
+    <Project Path="src/MyMirror.TeamPulse.Application/MyMirror.TeamPulse.Application.csproj" />
+    <Project Path="src/MyMirror.TeamPulse.Domain/MyMirror.TeamPulse.Domain.csproj" />
+    <Project Path="src/MyMirror.TeamPulse.Infrastructure/MyMirror.TeamPulse.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MyMirror.TeamPulse.Tests/MyMirror.TeamPulse.Tests.csproj" />
+  </Folder>
+</Solution>

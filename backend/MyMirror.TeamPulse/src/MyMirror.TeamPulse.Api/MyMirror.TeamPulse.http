@@ -1,0 +1,25 @@
+@MyMirror.TeamPulse_HostAddress = https://localhost:7053
+
+### Get all categories
+GET {{MyMirror.TeamPulse_HostAddress}}/api/pulse/categories
+Accept: application/json
+
+###
+
+### Submit a pulse
+POST {{MyMirror.TeamPulse_HostAddress}}/api/pulse
+Content-Type: application/json
+
+{
+  "score": 4,
+  "comment": "Feeling productive today",
+  "categoryId": "1b80ddda-56d1-4478-ae67-b881f91f7235"
+}
+
+###
+
+### Get pulse summary
+GET {{MyMirror.TeamPulse_HostAddress}}/api/pulse/summary
+Accept: application/json
+
+###
